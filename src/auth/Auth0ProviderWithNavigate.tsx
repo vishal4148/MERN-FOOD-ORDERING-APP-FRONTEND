@@ -16,7 +16,7 @@ const Auth0ProviderWithNavigate = ({ children }: Props) => {
         throw new Error("unable to initialise auth");
     }
 
-    const onRedirectCallback =async(appState?: AppState, user?: User) => {
+    const onRedirectCallback = async(appState?: AppState, user?: User) => {
         const token = await getAccessTokenSilently();
         console.log("token",token)
         navigate("/auth-callback")
