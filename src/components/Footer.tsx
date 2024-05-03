@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="bg-orange-500 py-10">
             <div className="container mx-auto flex flex-col items-center md:flex-row justify-between text-center md:text-left">
                 <span className="mb-4 md:mb-0 text-3xl text-white font-bold tracking-tight">
-                    MernEats.com
+                    MernEats.com yash
                 </span>
                 <span className="text-white font-bold tracking-tight">
                     All trademarks are properties of their respective owners.© MernEats.com™ Ltd. All rights reserved.
